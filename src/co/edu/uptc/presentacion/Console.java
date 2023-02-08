@@ -27,7 +27,9 @@ public class Console {
                 System.out.println("ingrese la clave");
                 int clave = sc.nextInt();
                 System.out.println("ingrese el contenido");
+
                 String content=sc.nextLine();
+                content=sc.nextLine();
                 controller.addNodo(clave,content);
                 break;
 
